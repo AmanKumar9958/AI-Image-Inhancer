@@ -1,5 +1,5 @@
 import React from 'react'
-import Loader from './Loader'
+import Loader    from './Loader'
 
 const ImagePreview = (props) => {
     return (
@@ -8,7 +8,7 @@ const ImagePreview = (props) => {
             <div className='p-3 overflow-hidden rounded-xl shadow-lg'>
                 <h1 className='text-xl font-semibold text-center bg-blue-900 p-2 rounded-xl'>Original Image</h1>
                 {props.uploaded ? (
-                    <img src={props.uploaded} alt="Original_Image" className='w-full h-96 object-cover mt-5 text-center' />
+                    <img src={props.uploaded} alt="Original_Image" className='w-full full object-cover mt-5 text-center' />
                 ) : (
                     <div className='text-center text-gray-500 mt-2 flex justify-center items-center'>
                         NO Image Selected

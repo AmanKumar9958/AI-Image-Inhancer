@@ -6,11 +6,11 @@ const Loader = () => {
     const color = "#ffffff";
 
     return (
-        <div className="sweet-loading flex flex-col justify-center items-center mt-10">
+        <div className="sweet-loading flex flex-col justify-center items-center mt-10 h-full">
             <ClipLoader
                 color={color}
                 loading={loading}
-                size={50}
+                size={90}
                 aria-label="Loading Spinner"
                 data-testid="loader"
             />
