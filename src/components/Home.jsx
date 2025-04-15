@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import ImageUpload from './ImageUpload'
 import ImagePreview from './ImagePreview'
+import enhancedImageHandler from '../services/api'
 
 const Home = () => {
     const [uploadImage, setUploadImage] = useState(null);
